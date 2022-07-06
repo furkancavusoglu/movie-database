@@ -1,5 +1,6 @@
 package io.javabrains.moviecatalogservice.recourses;
 
+import com.netflix.discovery.DiscoveryClient;
 import io.javabrains.moviecatalogservice.models.CatalogItem;
 import io.javabrains.moviecatalogservice.models.Movie;
 import io.javabrains.moviecatalogservice.models.Rating;
@@ -23,35 +24,39 @@ public class CatalogResource {
     RestTemplate restTemplate;
     WebClient.Builder builder;
 
-    public CatalogResource(RestTemplate restTemplate, WebClient.Builder builder) {
+    DiscoveryClient discoveryClient;
+
+    public CatalogResource(RestTemplate restTemplate, WebClient.Builder builder, DiscoveryClient discoveryClient) {
         this.restTemplate = restTemplate;
         this.builder = builder;
+        this.discoveryClient = discoveryClient;
     }
 
     @GetMapping("/{userId}")
     List<CatalogItem> getCatalog(@PathVariable String userId) {
 
-//        UserRating ratings = restTemplate.getForObject("http://localhost:8083/ratingsdata/users/" + userId,
-//                UserRating.class);
+//        UserRating ratings = restTemplate.getForObject("http://ratings-data-service/ratingsdata/user/" + userId,
+//                UserRating.class); //localhost:8083
 
-        UserRating ratings2 = builder.build()
+        UserRating ratings = builder.build()
                 .get()
-                .uri("http://localhost:8083/ratingsdata/users/" + userId)
+                .uri("http://ratings-data-service/ratingsdata/user/" + userId)
                 .retrieve()
                 .bodyToMono(UserRating.class)
                 .block();
 
-        return ratings2.getRatings().stream()
+        return ratings.getRatings().stream()
                 .map(rating -> {
-                    // Movie movie = restTemplate.getForObject("http://localhost:8082/movies/" + rating.getMovieId(), Movie.class);
-                    //For each movie id, call movie info service and get details
+                    // For each movie id, call movie info service and get details  localhost:8082
+
+                   //  Movie movie = restTemplate.getForObject("http://movie-info-service/movies/" + rating.getMovieId(), Movie.class);
+
                     Movie movie = builder.build()
                             .get()
-                            .uri("http://localhost:8082/movies/" + rating.getMovieId())
+                            .uri("http://movie-info-service/movies/" + rating.getMovieId())
                             .retrieve()
                             .bodyToMono(Movie.class)
                             .block();
-                    //Put them all together
                     return new CatalogItem(movie.getName(), "Description", rating.getRating());
                 })
                 .collect(Collectors.toList());
