@@ -24,12 +24,9 @@ public class CatalogResource {
     RestTemplate restTemplate;
     WebClient.Builder builder;
 
-    DiscoveryClient discoveryClient;
-
-    public CatalogResource(RestTemplate restTemplate, WebClient.Builder builder, DiscoveryClient discoveryClient) {
+    public CatalogResource(RestTemplate restTemplate, WebClient.Builder builder) {
         this.restTemplate = restTemplate;
         this.builder = builder;
-        this.discoveryClient = discoveryClient;
     }
 
     @GetMapping("/{userId}")
@@ -57,7 +54,7 @@ public class CatalogResource {
                             .retrieve()
                             .bodyToMono(Movie.class)
                             .block();
-                    return new CatalogItem(movie.getName(), "Description", rating.getRating());
+                    return new CatalogItem(movie.getName(), movie.getDescription(), rating.getRating());
                 })
                 .collect(Collectors.toList());
     }

@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Movie {
-    private String movieId;
-    private String name;
-    private String description;
+public class MovieSummary {
 
+    private String id;
+    private String title;
+    private String overview;
 }
