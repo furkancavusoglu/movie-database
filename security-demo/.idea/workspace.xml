@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efa0c4a2-ffa6-4200-87c0-558d765d481b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/MovieInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/services/UserRatingInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/models/UserRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/models/UserRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/recourses/CatalogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/recourses/CatalogResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-info-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-info-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/securitydemo/SecurityDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/securitydemo/controllers/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/securitydemo/controllers/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/securitydemo/entities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/securitydemo/security/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/securitydemo/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/securitydemo/SecurityDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/SpringSecurityJwtApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/requests/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/responses/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/security/JwtRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/service/MyUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/java/springsecurityjwt/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security-jwt/src/test/java/springsecurityjwt/SpringSecurityJwtApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BcCkh1eq2tPo2fTJYk2LoMld6O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/OneDrive/Masaüstü/Tutorials/Spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6df8c9389280e03054027a4e6b7ad50d&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\OneDrive\Masaüstü\Tutorials\Spring" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SecurityDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.securitydemo.SecurityDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efa0c4a2-ffa6-4200-87c0-558d765d481b" name="Changes" comment="" />
+      <created>1657196131800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657196131800</updated>
+      <workItem from="1657196134372" duration="1736000" />
+      <workItem from="1657197960951" duration="6875000" />
+      <workItem from="1657207484835" duration="1128000" />
+      <workItem from="1657209722191" duration="1918000" />
+      <workItem from="1657273985763" duration="1077000" />
+      <workItem from="1657463213227" duration="84000" />
+      <workItem from="1659097276971" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
